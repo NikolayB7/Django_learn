@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 def index(request):
     # print(dir(request))
-    return HttpResponse("Hello world")
+    return HttpResponse("<h3>Page news</h3>")
 
 
 def test(request):
